@@ -1,0 +1,1 @@
+export {producRouter} from "./product/index.js"
