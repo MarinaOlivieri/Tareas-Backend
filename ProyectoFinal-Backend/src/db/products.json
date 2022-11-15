@@ -1,0 +1,22 @@
+[
+   {
+      "title": "The Last Of Us REMAKE - PS5",
+      "description": "Survivor Horror",
+      "code": "TlOU-P1",
+      "thumbnail": "https://www.dymako.com/4879-large_default/ps5-the-last-of-us-parte-1.jpg",
+      "price": 150,
+      "stock": 30,
+      "timestamp": "8/11/2022 16:00:24",
+      "id": 1
+   },
+   {
+      "title": "The Last Of Us PARTE 2 - PS4",
+      "description": "Survivor Horror",
+      "code": "TlOU-P2",
+      "thumbnail": "https://media.vandal.net/m/44223/the-last-of-us-part-ii-20199271734386_1.jpg",
+      "price": 100,
+      "stock": 60,
+      "timestamp": "8/11/2022 17:01:39",
+      "id": 2
+   }
+]

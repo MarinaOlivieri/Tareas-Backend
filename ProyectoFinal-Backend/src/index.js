@@ -1,11 +1,14 @@
 import express from "express"
-import {producRouter} from "./routers/index.js"
+import { config } from "./config/index.js"
+import {producRouter, CartRouter} from "./routers/index.js"
 
 const app = express()
-const PORT = 8080
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
+app.use(express.static("public"))
 app.use("/api/products", producRouter)
+app.use("/api/cart", CartRouter)
 
-app.listen(PORT, ()=>console.log(`Server running on port ${PORT}`))
+const server = app.listen(config.SERVER.PORT, ()=>
+console.log(`Server running on port ${server.address().port}`))
